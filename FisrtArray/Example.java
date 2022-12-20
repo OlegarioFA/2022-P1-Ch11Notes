@@ -3,8 +3,8 @@ public class Example {
 
         // Arrays store one datatype
         int numberOfChristmasGifts[];
-        numberOfChristmasGifts = new int[2];
-
+        numberOfChristmasGifts = new int[200];
+/*
         numberOfChristmasGifts[0] = 7;
         numberOfChristmasGifts[1] = 3;
 
@@ -15,6 +15,11 @@ public class Example {
 
         System.out.println(numberOfChristmasGifts[0]);
         System.out.println(numberOfChristmasGifts[1]);
+*/
+        for(int x = 0; x < numberOfChristmasGifts.length; x++){
+            numberOfChristmasGifts[x] = 6;
+            System.out.println(numberOfChristmasGifts[x]);
+        }
 
 
 
